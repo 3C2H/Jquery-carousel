@@ -1,2 +1,4 @@
 # Git-quest
-Instructional repository to test out git functionnalities 
+Instructional repository to test out git functionnalities.
+
+Fisrt distant modification
