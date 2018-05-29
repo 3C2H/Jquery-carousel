@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery rollingslider.js Plugin Example</title>
+	<link rel="stylesheet" href="style/index.css">
+</head>
+	<body>
+    <div class="jquery-script-center"></div>
+    <div class="jquery-script-clear"></div>
+		<div class="demo-wrap">
+			<div id="demo" class="demo">
+				<ul class="slide-wrap" id="example">
+					<li class="pos1">
+						<div class="inner">
+							<a href="#">
+								<img src="https://unsplash.it/300/390?image=944"/>
+							</a>
+						</div>
+					</li>
+					<li class="pos2">
+						<div class="inner">
+							<a href="#">
+								<img src="https://unsplash.it/300/390?image=943"/>
+							</a>
+						</div>
+					</li>
+					<li class="pos3">
+						<div class="inner">
+							<a href="#">
+								<img src="https://unsplash.it/300/390?image=942"/>
+							</a>
+						</div>
+					</li>
+					<li class="pos4">
+						<div class="inner">
+							<a href="#">
+								<img src="https://unsplash.it/300/390?image=941"/>
+							</a>
+						</div>
+					</li>
+					<li class="pos5">
+						<div class="inner">
+							<a href="#">
+								<img src="https://unsplash.it/300/390?image=940"/>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<a href="#">
+								<img data-src="https://unsplash.it/300/390?image=840"/>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<a href="#">
+								<img data-src="https://unsplash.it/300/390?image=541"/>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<a href="#">
+								<img data-src="https://unsplash.it/300/390?image=340"/>
+							</a>
+						</div>
+					</li>
+				</ul>
+				<i class="arrow prev" id="jprev">&lt;</i>
+				<i class="arrow next" id="jnext">&gt;</i>
+			</div>
+    </div>
+
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="script/jquery.rollingslider.js"></script>
+
+		<script>
+			$('#demo').RollingSlider({
+				showArea:"#example",
+				prev:"#jprev",
+				next:"#jnext",
+				moveSpeed:50,
+        autoPlay:true,
+        stay: 3000,
+        animate: 1500
+        
+      })
+    </script>
+    <script type="text/javascript">
+      var _gaq = _gaq || []
+      _gaq.push(['_setAccount', 'UA-36251023-1'])
+      _gaq.push(['_setDomainName', 'jqueryscript.net'])
+      _gaq.push(['_trackPageview'])
+    </script>
+
+	</body>
+</html>
